@@ -10,7 +10,7 @@ const PokeSsr = ({ pokemons }) => {
 }
 
 export const getServerSideProps = async () => {
-  const response = await fetch("https://pakemon-paoletti.herokuapp.com/pokemon")
+  const response = await fetch("https://pakemon-paoletti.herokuapp.com/pokemon/")
   const pokemonsApi = await response.json();
   return { props: { pokemons: pokemonsApi, }, }
 }
