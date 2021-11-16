@@ -16,7 +16,7 @@ const Pokemon = () => {
       <h1>POKEMON API</h1>
       <ul>
         {pokemons &&
-          pokemons.map((pokemon) => (<li><h2>{pokemon.name}</h2></li>))
+          pokemons.map((pokemon) => (<li key={pokemon.id}><h2>{pokemon.name}</h2></li>))
         }
       </ul>
     </>
