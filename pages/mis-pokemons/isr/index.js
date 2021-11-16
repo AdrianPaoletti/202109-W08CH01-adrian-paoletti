@@ -3,7 +3,7 @@ const PokemonIsr = ({ pokemons }) => {
     <>
       <h1>PokemonISR</h1>
       <ul>
-        {pokemons.map((pokemon) => (<li><h2>{pokemon.name}</h2></li>))}
+        {pokemons.map((pokemon) => (<li key={pokemon.id}><h2>{pokemon.name}</h2></li>))}
       </ul>
     </>
   )
