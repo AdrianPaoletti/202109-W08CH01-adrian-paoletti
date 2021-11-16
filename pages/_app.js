@@ -11,13 +11,13 @@ function MyApp({ Component, pageProps }) {
         <Link href="/pokemon">
           <a>  Pokemon -- </a>
         </Link>
-        <Link href="/mis-pokemon/ISR">
+        <Link href="/mis-pokemon/isr">
           <a>  Pokemon ISR -- </a>
         </Link>
-        <Link href="/mis-pokemon/SSG">
+        <Link href="/mis-pokemon/ssg">
           <a>  Pokemon SSG -- </a>
         </Link>
-        <Link href="/mis-pokemon/SSR">
+        <Link href="/mis-pokemon/ssr">
           <a>  Pokemon SSR --- </a>
         </Link>
       </nav>
