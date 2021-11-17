@@ -1,7 +1,7 @@
 const PokemonSSG = ({ pokemons }) => {
   return (
     <>
-      <h1>POKEMON API</h1>
+      <h1>POKEMON SSG</h1>
       <ul>
         {pokemons &&
           pokemons.map((pokemon) => (<li key={pokemon.id}><h2>{pokemon.name}</h2></li>))
